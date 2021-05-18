@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/73d0f729875189.5608b9343c58d.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.ch{
+    display: flex;
+}
+.fp{
+    padding-top: 150px;
+}
+.clk{
+    font-size: 30px;
+    padding: 5px;
+    background-color: tomato;
+    border: tomato solid 5px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+h1{
+    padding: 10px;
+}

@@ -1,0 +1,67 @@
+const question=document.getElementById("question");
+const choices=Array.from(document.getElementsByClassName("choice"));
+let currentQuestion={};
+let accept=false;
+let score=0;
+let questioncounter=0;
+let avq=[];
+
+let questions=[
+    {
+        question:"what is the full form of html ?",
+        choice1:"<hyper text markup language>",
+        choice2:"<hyper text mark language>",
+        choice3:"<hyper tune markup lol>",
+        choice4:"<high text make language>",
+        answer:1
+    },
+    {
+        question:"what is the full form of html ?",
+        choice1:"<hyper text markup language>",
+        choice2:"<hyper text mark language>",
+        choice3:"<hyper tune markup lol>",
+        choice4:"<high text make language>",
+        answer:2
+    },
+
+    {
+        question:"what is the full form of html ?",
+        choice1:"<hyper text markup language>",
+        choice2:"<hyper text mark language>",
+        choice3:"<hyper tune markup lol>",
+        choice4:"<high text make language>",
+        answer:3
+    },
+];
+
+const CURRECT_ANS=10;
+const MAX_QUESTION=questions.length;
+
+    startGame=()=>{
+        questioncounter=0;
+        score=0;
+        avq=[...questions];
+        getNewQuestion();
+    }
+ 
+
+
+
+getNewQuestion=()=>{
+    questioncounter++;
+    const questionIndex=Math.floor(Math.random()*avq.length);
+    currentQuestion=avq[questionIndex];
+    question.innerText=currentQuestion.question;
+
+    choices.forEach(choice=>{
+        const number=choice.dataset["number"];
+        choice.innerText=currentQuestion["choice"+number];
+    });
+
+    avq.splice(questionIndex,1);
+    accept=true;
+
+}
+
+startGame();
+
