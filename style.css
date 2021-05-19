@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    text-transform: capitalize;
 }
 body{
     background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/73d0f729875189.5608b9343c58d.png");
