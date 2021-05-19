@@ -40,8 +40,13 @@ h1{
     border: none;
     color:rgb(167, 33, 33);
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 30px;
     cursor: pointer;
     padding: 5px;
+    text-decoration: underline;
+}
+.btm{
+    color:pink;
+    font-weight: 500;
 }
