@@ -32,6 +32,7 @@ h1{
 .correct{
     background-color: green;
 }
+
 .incorrect{
     background-color: red;
 }
@@ -42,4 +43,14 @@ h1{
     font-size: large;
     font-weight: 500;
     border-radius: 30px;
+    cursor: pointer;
+}
+.co{
+    border: none;
+    background-color: teal;
+    color:yellow;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
 }

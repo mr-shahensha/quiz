@@ -9,11 +9,11 @@ let avq=[];
 
 let questions=[
     {
-        question:"what is the full form of html1 ?",
-        choice1:"<hyper text markup language>",
-        choice2:"<hyper text mark language>",
-        choice3:"<hyper tune markup lol>",
-        choice4:"<high text make language>",
+        question:"who is the last president of america ?",
+        choice1:"Vladimir Putin",
+        choice2:"Joe Biden",
+        choice3:"Donald Trump",
+        choice4:"Barack Obama",
         answer:1
     },
     {
