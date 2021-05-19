@@ -118,6 +118,11 @@ incrementScore=num=>{
 
 
 startGame();
+var qs=getElementById("qs");
+quit=()=>{
+    if(getNewQuestion==0)
+    qs.display="none";
+}
 
 
 
