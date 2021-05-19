@@ -77,9 +77,11 @@ choices.forEach(choice=>{
            
             incrementScore(CURRECT_ANS);
         }
+        seletChoice.parentElement.classList.add(answercheck);
         setTimeout(()=>{
+            seletChoice.parentElement.classList.remove(answercheck);
             getNewQuestion();
-        },1000);
+        },2000);
     });
 });
 incrementScore=num=>{

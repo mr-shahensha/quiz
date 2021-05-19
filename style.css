@@ -29,3 +29,17 @@ body{
 h1{
     padding: 10px;
 }
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
+.chh{
+    border: none;
+    background-color: teal;
+    color:yellow;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 30px;
+}
