@@ -113,7 +113,6 @@ choices.forEach(choice=>{
 
         if(avq.length<1){
             document.getElementById("qs").style.display="none"; 
- 
         }
         else{
             document.getElementById("qs").style.display="inline"; 
