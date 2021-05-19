@@ -1,5 +1,6 @@
 const question=document.getElementById("question");
 const choices=Array.from(document.getElementsByClassName("choice"));
+const scoreText=document.getElementById("score"); 
 let currentQuestion={};
 let accept=false;
 let score=0;
@@ -8,7 +9,7 @@ let avq=[];
 
 let questions=[
     {
-        question:"what is the full form of html ?",
+        question:"what is the full form of html1 ?",
         choice1:"<hyper text markup language>",
         choice2:"<hyper text mark language>",
         choice3:"<hyper tune markup lol>",
@@ -16,7 +17,7 @@ let questions=[
         answer:1
     },
     {
-        question:"what is the full form of html ?",
+        question:"what is the full form of html 2?",
         choice1:"<hyper text markup language>",
         choice2:"<hyper text mark language>",
         choice3:"<hyper tune markup lol>",
@@ -25,7 +26,7 @@ let questions=[
     },
 
     {
-        question:"what is the full form of html ?",
+        question:"what is the full form of html 3?",
         choice1:"<hyper text markup language>",
         choice2:"<hyper text mark language>",
         choice3:"<hyper tune markup lol>",
@@ -61,7 +62,33 @@ getNewQuestion=()=>{
     avq.splice(questionIndex,1);
     accept=true;
 
+};
+
+choices.forEach(choice=>{
+    choice.addEventListener("click",e=>{
+        if(!accept) return ;
+
+        accept=true;
+        const seletChoice=e.target;
+        const selectedAnswer=seletChoice.dataset["number"];
+        const answercheck=selectedAnswer==currentQuestion.answer?"correct":"incorrect";
+
+        if(answercheck=="correct"){
+           
+            incrementScore(CURRECT_ANS);
+        }
+    })
+})
+incrementScore=num=>{
+    score+=num;
+    scoreText.innerText=score;
 }
 
+
 startGame();
+
+
+
+
+
 
