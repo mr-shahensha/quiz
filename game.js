@@ -77,8 +77,11 @@ choices.forEach(choice=>{
            
             incrementScore(CURRECT_ANS);
         }
-    })
-})
+        setTimeout(()=>{
+            getNewQuestion();
+        },1000);
+    });
+});
 incrementScore=num=>{
     score+=num;
     scoreText.innerText=score;
