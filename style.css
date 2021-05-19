@@ -38,9 +38,9 @@ h1{
 }
 .ch{
     border: none;
-    color:yellow;
-    font-size: large;
+    color:rgb(167, 33, 33);
     font-weight: 500;
+    font-size: 30px;
     border-radius: 30px;
     cursor: pointer;
     padding: 5px;
