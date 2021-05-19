@@ -14,23 +14,50 @@ let questions=[
         choice2:"Joe Biden",
         choice3:"Donald Trump",
         choice4:"Barack Obama",
-        answer:1
+        answer:2
     },
     {
-        question:"what is the full form of html 2?",
-        choice1:"<hyper text markup language>",
-        choice2:"<hyper text mark language>",
-        choice3:"<hyper tune markup lol>",
-        choice4:"<high text make language>",
+        question:"origin country of coronavirus ?",
+        choice1:"China",
+        choice2:"Russia",
+        choice3:"United States	",
+        choice4:"india",
+        answer:1
+    },
+
+    {
+        question:"what is the full form of html ?",
+        choice1:"hyper text markup language",
+        choice2:"hyper text mark language",
+        choice3:"hyper tune markup lol",
+        choice4:"high text make language",
+        answer:1
+    },
+
+    {
+        question:"who created the social sites facebook ?",
+        choice1:"bill gates",
+        choice2:"Mark Zuckerberg",
+        choice3:"elon musk",
+        choice4:"jeff bezos",
         answer:2
     },
 
     {
-        question:"what is the full form of html 3?",
-        choice1:"<hyper text markup language>",
-        choice2:"<hyper text mark language>",
-        choice3:"<hyper tune markup lol>",
-        choice4:"<high text make language>",
+        question:"who is the lead actor of 3idiots ?",
+        choice1:"Boman Irani",
+        choice2:"Kareena Kapoor",
+        choice3:"R. Madhavan",
+        choice4:"Aamir Khan",
+        answer:4
+    },
+
+    {
+        question:"the height of mount everest",
+        choice1:"8,894 m",
+        choice2:"8,984 m",
+        choice3:"8,849 m",
+        choice4:"8,489 m",
         answer:3
     },
 ];
@@ -81,7 +108,7 @@ choices.forEach(choice=>{
         setTimeout(()=>{
             seletChoice.parentElement.classList.remove(answercheck);
             getNewQuestion();
-        },2000);
+        },1000);
     });
 });
 incrementScore=num=>{

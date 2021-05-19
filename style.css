@@ -36,21 +36,12 @@ h1{
 .incorrect{
     background-color: red;
 }
-.chh{
+.ch{
     border: none;
-    background-color: teal;
     color:yellow;
     font-size: large;
     font-weight: 500;
     border-radius: 30px;
     cursor: pointer;
-}
-.co{
-    border: none;
-    background-color: teal;
-    color:yellow;
-    font-size: large;
-    font-weight: 500;
-    border-radius: 30px;
-    cursor: pointer;
+    padding: 5px;
 }
