@@ -109,6 +109,16 @@ choices.forEach(choice=>{
             seletChoice.parentElement.classList.remove(answercheck);
             getNewQuestion();
         },1000);
+
+
+        if(avq.length<1){
+            document.getElementById("qs").style.display="none"; 
+ 
+        }
+        else{
+            document.getElementById("qs").style.display="inline"; 
+        }
+    
     });
 });
 incrementScore=num=>{
@@ -116,16 +126,4 @@ incrementScore=num=>{
     scoreText.innerText=score;
 }
 
-
 startGame();
-var qs=getElementById("qs");
-quit=()=>{
-    if(getNewQuestion==0)
-    qs.display="none";
-}
-
-
-
-
-
-
