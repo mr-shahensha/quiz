@@ -50,3 +50,18 @@ h1{
     color:black;
     font-weight: 500;
 }
+.scre1{
+    animation-name: final;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes final{
+    100%{
+      
+      position: absolute;
+      left: 0%;
+      right: 30%;
+      top: 30%;
+      margin: auto;
+    }
+}
