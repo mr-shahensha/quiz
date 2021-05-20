@@ -17,6 +17,16 @@ let questions=[
         choice4:"Surendranath Tagore",
         answer:1
     },
+
+    {
+        question:"smallest state of india",
+        choice1:"Goa",
+        choice2:"Chandigarh",
+        choice3:"West Bengal",
+        choice4:"Odisha",
+        answer:1
+    },
+
     {
         question:"who is the last president of america ?",
         choice1:"Vladimir Putin",
@@ -106,6 +116,23 @@ let questions=[
          answer:3
      },
 
+     {
+        question:"worlds longest river",
+        choice1:"Ganga",
+        choice2:"amazon",
+        choice3:"Nile",
+       choice4:"Brahmaputra",
+        answer:3
+    },
+
+    {
+        question:"best selling book of all time",
+        choice1:"Harry Potter and the Philosopher's Stone",
+        choice2:"the bible",
+        choice3:"The Alchemist",
+       choice4:"Da Vinci Code",
+        answer:2
+    },
 
 ];
 
