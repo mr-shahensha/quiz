@@ -10,6 +10,14 @@ const scre=document.getElementById("scre");
 
 let questions=[
     {
+        question:"who wrote gitanjali ?",
+        choice1:"Rabindranath Tagore",
+        choice2:"Debendranath Tagore",
+        choice3:"Satyendranath Tagore",
+        choice4:"Surendranath Tagore",
+        answer:1
+    },
+    {
         question:"who is the last president of america ?",
         choice1:"Vladimir Putin",
         choice2:"Joe Biden",
@@ -27,6 +35,15 @@ let questions=[
      },
 
      {
+        question:"first indian music composer who got oscar",
+        choice1:"A.R. Rahman",
+        choice2:"Sid Sriram",
+        choice3:"Arijit Singh",
+        choice4:"A. R. Ameen",
+        answer:1
+    },
+
+     {
          question:"what is the full form of html ?",
          choice1:"hyper text markup language",
          choice2:"hyper text mark language",
@@ -35,6 +52,16 @@ let questions=[
         answer:1
     
      },
+
+     {
+        question:"full form of pubg ?",
+        choice1:"playerunknown bollground",
+        choice2:"playyour ballgun",
+        choice3:"PlayerUnknown's Battlegrounds",
+       choice4:"PrayUnknown's Bulletgrounds",
+        answer:3
+    },
+
       {
         question:"who created the social sites facebook ?",
        choice1:"bill gates",
@@ -42,6 +69,14 @@ let questions=[
         choice3:"elon musk",
         choice4:"jeff bezos",
         answer:2
+    },
+    {
+        question:"the first indian woman who go to space ?",
+       choice1:"Sarojini Naidu",
+        choice2:"Kiran Bedi",
+        choice3:"Sunita Williams",
+        choice4:"Kalpana Chawla",
+        answer:4
     },
 
      {
@@ -54,6 +89,15 @@ let questions=[
      },
 
      {
+        question:"who calculate the height of mount everest ?",
+        choice1:"George Everest",
+        choice2:"radhanath sikdar",
+        choice3:"Jagadish Chandra Bose",
+       choice4:"Alexander Duff",
+        answer:2
+    },
+
+     {
          question:"the height of mount everest",
          choice1:"8,894 m",
          choice2:"8,984 m",
@@ -61,6 +105,8 @@ let questions=[
         choice4:"8,489 m",
          answer:3
      },
+
+
 ];
 
 const CURRECT_ANS=10;
