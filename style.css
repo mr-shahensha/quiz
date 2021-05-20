@@ -50,18 +50,53 @@ h1{
     color:black;
     font-weight: 500;
 }
+.developer{
+    position: absolute;
+    right: 5px;
+    left: 5px;
+    font-size: 20px;
+    bottom: 0;
+    opacity: .7;
+    font-family: 'Goblin One', cursive;
+    font-weight: 700;
+}
+#qs{
+    margin-top: 13%;
+}
+#scre{
+ position: absolute;
+ top: 0%;
+ 
+ right: 0%;
+}
+#scre p{
+    font-weight: 800;
+    font-size: 25px;
+    color: rgb(165, 79, 18);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+}
 .scre1{
     animation-name: final;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 @keyframes final{
     100%{
-      
       position: absolute;
-      left: 0%;
-      right: 30%;
+      right: 40%;
       top: 30%;
-      margin: auto;
+      
+      
     }
+}
+@media  screen and (max-width:650px) {
+
+    .developer{
+       
+        font-size: 10px;
+       bottom: 5%;
+      
+    }
+    
 }
